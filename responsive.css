@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   body{
-    margin: 0;
-    padding:0;
+    overflow-x: hidden;
+    width: auto;
   }
 }
 
@@ -26,8 +26,14 @@
     max-width: 500px;
     max-height: 700px;
   }
+  .banner> img{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: 400px 400px ;
+  }
   .banner h2 {
     font-size: 1.2rem;
+    padding:3rem;
   }
   .banner p {
     font-size: 0.7rem;
@@ -91,13 +97,19 @@
     line-height: 24px;
     width: auto;
   }
-  .popular-tours-img {
+  .popular-tours-img img{
     margin: 50px 0;
-    max-width: 300px;
+    max-width:100%;
+    max-height: 100%;
     flex-shrink: 0;
   }
-}
 
+  .popular-tours-img {
+    width: 400px;
+    height: 500px;
+    margin-left: 30px;
+}
+}
 /*Our popular tours end */
 
 @media screen and (max-width: 600px) {
@@ -305,16 +317,22 @@
 
   @media screen and (max-width: 600px) {
     footer{
-      margin-top:600px;
+      margin-top:540px;
+      overflow: hidden;
+      
     }
     .footer-text {
-    margin-left:  70px;
+    margin-left:70px;
+
     }
     .footer-text >p{
       width: 200px;
       font-size: 0.7rem;
+      margin-left: 0;
     }
     hr{
       width: 300px;
     }
   }
+
+/* Footer section responsive done */
