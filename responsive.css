@@ -44,10 +44,15 @@
 }
 
 /*our popular tours responsive*/
+
+
 @media screen and (max-width: 600px) {
   .popular-tours {
     flex-direction: column;
     margin: 0 10px;
+  }
+  .container-text{
+    width: 100%;
   }
   .popular-tours h2 {
     color: #131318;
@@ -79,14 +84,101 @@
     font-weight: 400;
     line-height: 24px;
     width: auto;
-    
   }
   .popular-tours-img {
-    margin: 40px 10px;
-    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
 
   }
-
 }
 
 /*Our popular tours*/
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0px 15px;
+    flex-wrap: wrap;
+  }
+  .container-text p {
+    margin-left: 5px;
+    font-size: 0.7rem;
+    width: 300px;
+  }
+
+  .container-img1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container-img2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container-img3 {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+/*endddddddd*/
+
+@media screen and (max-width: 600px) {
+  .why-choice-us {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .why-choice-us-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-choice-us-text p {
+    margin-left:80px;
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .why-choice-us-img {
+    flex-direction: column;
+  }
+  .box1 {
+    margin-left:15px;
+    margin-bottom: 20px;
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 0px;
+  }
+
+  .box2 {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+    margin-right: 30px;
+    padding: 0px;
+  }
+  .box3 {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 0px;
+    margin-top:20px;
+  }
+}
+/*why-choice-us section responsive done*/

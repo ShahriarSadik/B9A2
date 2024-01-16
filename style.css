@@ -179,5 +179,136 @@ p {
   margin-top: 20px;
 }
 
-
 /*popular tours section end*/
+
+/*Choice your destination or container style start here*/
+
+.container {
+  margin: 150px 120px;
+
+  align-items: center;
+}
+
+.container-text h2 {
+  color: #131318;
+  text-align: center;
+  font-family: "Mulish";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.container-text p {
+  color: rgba(19, 19, 24, 0.7);
+  width: 643px;
+  text-align: center;
+  font-family: "Mulish";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 260px;
+}
+
+.container-img1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-img2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-img3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+/*container section enddddd*/
+
+/*why-choice-us section start here------*/
+
+.why-choice-us {
+  margin: 0 120px;
+  align-items: center;
+}
+.why-choice-us-text {
+  text-align: center;
+}
+
+.why-choice-us-text p {
+  width: 643px;
+  margin-left: 260px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.why-choice-us-text h3 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.why-choice-us-img {
+  display: flex;
+  margin: 70px 0px;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 510px;
+  height: 264px;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+
+.box1 h3 {
+  margin: 20px 0;
+}
+
+.box2 h3 {
+  margin: 20px 0;
+}
+.box3 h3 {
+  margin: 20px 0;
+}
+
+.box2 {
+  width: 510px;
+  height: 264px;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  margin-left: auto;
+  padding: 30px;
+  margin-left: 40px;
+}
+
+.box3 {
+  margin: auto auto;
+  width: 573px;
+  height: 264px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 30px;
+}
+
+/*why-choice-us section end---*/
+
+
