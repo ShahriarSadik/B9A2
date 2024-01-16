@@ -45,13 +45,12 @@
 
 /*our popular tours responsive*/
 
-
 @media screen and (max-width: 600px) {
   .popular-tours {
     flex-direction: column;
     margin: 0 10px;
   }
-  .container-text{
+  .container-text {
     width: 100%;
   }
   .popular-tours h2 {
@@ -88,7 +87,6 @@
   .popular-tours-img {
     width: 100%;
     margin: 50px 0;
-
   }
 }
 
@@ -138,7 +136,7 @@
   }
 
   .why-choice-us-text p {
-    margin-left:80px;
+    margin-left: 80px;
     font-size: 0.7rem;
     flex-wrap: wrap;
     max-width: 200px;
@@ -149,7 +147,7 @@
     flex-direction: column;
   }
   .box1 {
-    margin-left:15px;
+    margin-left: 15px;
     margin-bottom: 20px;
     width: 335px;
     height: 289px;
@@ -178,7 +176,59 @@
     border: 1px solid rgba(233, 68, 68, 0.2);
     background: rgba(233, 68, 68, 0.05);
     padding: 0px;
-    margin-top:20px;
+    margin-top: 20px;
   }
 }
 /*why-choice-us section responsive done*/
+@media screen and (max-width: 600px) {
+  .Next-tour {
+    margin: 10px;
+  }
+  .creative {
+    margin: 10px;
+    flex-direction: column;
+  }
+  .sajek-hill-img2 {
+    margin: 20px 0;
+  }
+}
+
+/*Endddddddddd Next tour responsive*/
+@media screen and (max-width: 600px) {
+  .Deal-Discounts {
+    margin: 0px;
+  }
+  .deal-1 {
+    margin: 20px;
+  }
+
+  .deal-1 > p {
+    font-size: 0.7rem;
+    max-width: 250px;
+  }
+  .deal-1 a {
+    font-size: 0.7rem;
+  }
+
+  .deal-3 {
+    margin: 20px;
+  }
+
+  .deal-3 > p {
+    font-size: 0.7rem;
+    max-width: 250px;
+  }
+  .deal-3 a {
+    font-size: 0.7rem;
+  }
+
+  .deal-2 > p {
+    width: 250px;
+    font-size: 0.7rem;
+  }
+  .deal-2 a {
+    font-size: 0.7rem;
+  }
+}
+
+/*Deal and discount responsive done*/
