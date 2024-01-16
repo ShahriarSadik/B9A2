@@ -490,3 +490,25 @@ p {
   }
 
   /*Deal-discounts section styles done*/
+
+
+  .mountain-section {
+    margin: 30px 120px;
+    display: flex;
+  }
+
+  .mountain-img{
+    border-radius:16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%); 
+    width: 50%;
+  }
+
+  .mountain-text> ul >li{
+    margin-top: 20px;
+
+  }
+
+
+  /*mountain section done*/
+
+  

@@ -232,3 +232,20 @@
 }
 
 /*Deal and discount responsive done*/
+@media screen and (max-width: 600px) {
+.mountain-section {
+   flex-direction: column;
+   margin: 15px;
+}
+.mountain-img{
+  width:300px;
+  height: 300px;
+  margin-top: 40px;
+
+}
+#see-more{
+  text-align: center;
+
+}
+}
+
