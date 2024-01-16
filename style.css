@@ -162,6 +162,7 @@ p {
 .popular-tours-img {
   width: 50%;
   margin-left: 75px;
+
 }
 
 .read-more {
@@ -510,5 +511,126 @@ p {
 
 
   /*mountain section done*/
+
+  .newsletter {
+    margin: 80px 120px;
+    display: flex;
+    height: 422px;
+  }
+  
+  .newsletter-text {
+    width: 50%;
+    border: #ff5400 solid 4px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+  }
+  
+  .Subscribe-btn {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #ff5400;
+    margin-top: 30px;
+    border: none;
+  }
+  
+  .newsletter-text input {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 30px;
+    border: none;
+  }
+  .newsletter-img {
+    width: 50%;
+    background-image: url("Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 672px;
+    height: 422px;
+    flex-shrink: 0;
+    margin-left: 20px;
+  }
+  
+  .save-up {
+    background-color: #ff5400;
+    width: 260px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 280px;
+    margin-left: 412px;
+    transform: rotate(-29.628deg);
+  }
+  
+  .save-up > p {
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+
+  /* Newsletter section styles done */
+
+
+
+  /* footer section start here */
+  footer {
+    height: 450px;
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+  }
+  
+  .footer-upper-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name {
+    margin-top: 120px;
+  }
+  
+  .footer-text {
+    text-align: center;
+    width: 756px;
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 340px;
+  }
+  
+  .footer-icon {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  hr {
+    width: 872px;
+    height: 1px;
+    margin: 20px auto;
+    background: rgba(19, 19, 24, 0.05);
+    
+  }
+  .copyright{
+    text-align: center;
+  }
+  
+  /*footer-end*/
+  
+  
 
   
